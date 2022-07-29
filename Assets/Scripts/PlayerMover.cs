@@ -63,8 +63,8 @@ public class PlayerMover : MonoBehaviour
          rightLegTarget.y = rot.y;
          rightLegTarget.z = 150;
          leftLegTarget.x = -legsTarget.y;
-         leftLegTarget.y = 0;
-         leftLegTarget.z = 5;
+         leftLegTarget.y = 5;
+         leftLegTarget.z = -15;
          _rightLeg.localEulerAngles = rightLegTarget;
          _leftLeg.localEulerAngles = leftLegTarget;
        
